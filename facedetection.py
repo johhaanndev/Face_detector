@@ -5,7 +5,7 @@ from random import randrange
 trained_face_data = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Choose an image to detect the face in it
-img = cv2.imread('C:/Users/Usuario/Documents/courses/MachineLearning/facedetection/multiple_faces.jpg')
+img = cv2.imread('rdj.jpg')
 
 # To better the detection, we convert the image to grayscale
 grayscale_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
